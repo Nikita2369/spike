@@ -1,0 +1,31 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.slider{
+	width: 900px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.slider .photos {
+	position: relative;
+	height: 700px;
+}
+
+.slider .photos img{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	opacity: 0;
+	transform: translateX(-100px);
+	transform: rotateY(180deg);
+	transition: 1s;
+}
+
+.slider .photos img.showed{
+transform: translateX(100px);
+transform: rotateY(0deg);
+opacity: 1;
+}
