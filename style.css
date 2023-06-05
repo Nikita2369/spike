@@ -29,3 +29,5 @@ transform: translateX(100px);
 transform: rotateY(0deg);
 opacity: 1;
 }
+body{
+	background-image: linear-gradient(to right,#FF1493,#DC143C);
