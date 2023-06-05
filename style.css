@@ -30,4 +30,16 @@ transform: rotateY(0deg);
 opacity: 1;
 }
 body{
-	background-image: linear-gradient(to right,#FF1493,#DC143C);
+	background-image: linear-gradient(to right,#FF1493,#DC143C);}
+.End{
+	padding: 20px;
+	text-align: center;
+	background-color: #ddd;
+
+}
+
+@media screen and (max-width: 700px){
+	.main-content, nav{
+		flex-direction: column;
+	}
+}
